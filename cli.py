@@ -22,7 +22,7 @@ class CLI:
                 cmd = command[0].lower()
 
                 if cmd == "load":
-                    self.load_process(command)
+                    self.load_process(command) 
                 elif cmd == "access":
                     self.access_page(command)
                 elif cmd == "frames":
